@@ -4,7 +4,6 @@ import { serialize } from 'utils/parser';
 import { isValidNumber, isNumber, pick, isBoolean } from 'utils/underscore';
 import { Features } from 'environment/environment';
 import en from 'assets/translations/en.js';
-
 import { getLanguage, getCustomLocalization, applyTranslation, normalizeIntl } from 'utils/language';
 
 /* global __webpack_public_path__:true */
@@ -29,7 +28,7 @@ export const Defaults = {
     enableShortcuts: true,
     height: 360,
     intl: {},
-    language: 'zh',
+    language: 'en',
     liveTimeout: null,
     localization: en,
     mute: false,
